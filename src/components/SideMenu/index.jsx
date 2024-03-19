@@ -17,7 +17,7 @@ export function SideMenu() {
       </Nav>
 
       <Footer>
-        <img src="https://github.com/rodrigorgtic.png" alt="Foto do usuário" />
+        <img src="https://avatars.githubusercontent.com/u/6424894?v=4" alt="Foto do usuário" />
         <div>
           <strong>Rodrigo Gonçalves</strong>
           <small>rodrigo@email.com</small>
