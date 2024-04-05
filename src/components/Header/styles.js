@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {DEVICE_BREAKPOINTS} from '../../styles/devicesBreakpoints'
 
 export const Container = styled.header`
   display: flex;
@@ -14,4 +15,21 @@ export const Container = styled.header`
   > h1 {
     font-size: 2rem;
   }
+`;
+
+export const Menu = styled.button`
+  display: none;
+  background: none;
+  border: none;
+
+  > svg{
+    font-size: 2.5rem;
+    color: ${({ theme }) => theme.COLORS.BLUE_200};
+  }
+
+  @media (max-width: ${DEVICE_BREAKPOINTS.MD}) {
+    display: block;
+  }
+
+  
 `;
